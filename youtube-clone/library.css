@@ -1,0 +1,35 @@
+.library{
+    display: flex;
+    align-items: top;
+    gap: 20px;
+    margin-left: 10px;
+}
+.libraryimg{
+    width: 120px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 38px;
+    font-weight: bold;
+}
+.channel{
+    color: gray;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.switch{
+    border: none;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.switch:hover{
+    background-color: rgb(218, 218, 218);
+}
